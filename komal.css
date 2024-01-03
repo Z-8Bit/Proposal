@@ -1,0 +1,43 @@
+body {
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://images.pexels.com/photos/3038145/pexels-photo-3038145.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover;
+    background-position: center;
+}
+
+.proposal-container {
+    text-align: center;
+    margin: 20% auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: white;
+}
+
+.options {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    margin: 0 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+button:hover {
+    background-color: #45a049;
+}
